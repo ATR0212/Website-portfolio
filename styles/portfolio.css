@@ -88,12 +88,22 @@ nav li {
 }
 
 /* main related style*/
+
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* section related style*/
 .section-about {
     padding: 130px;
     text-align: center;
     border-radius: 10px;
     background: #FFF8F3;
     margin-top: 130px;
+}
+main section{
+    margin-top: 150px;
 }
 
 .section-title {
@@ -109,4 +119,32 @@ nav li {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+    margin-right: 50px;
+}
+#what-i-do-description{
+    padding-top: 30px 150px;
+    text-align: center;
+}
+/* skill related style*/
+.skill-container{
+    display: flex;
+    gap: 24px;
+} 
+.skill{
+    padding: 20px 33px 30px 33px;
+    border-radius: 5px;
+    background: #FFF;
+    
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description{
+    
 }
