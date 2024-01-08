@@ -5,9 +5,9 @@ body {
 
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png'); 
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
 }
 
 .nav-title {
@@ -45,6 +45,10 @@ nav {
 
 nav>ul {
     display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
 }
 
 nav li {
@@ -177,4 +181,33 @@ main section {
 }
 .resume-item-title{
     padding-bottom: 0px;
+}
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 227px 130px 230px;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.footer-column{
+   width: 50%;
+}
+#download-cv{
+    text-align: center;
+}
+
+#btn-once{
+    margin-top: 50px;
+}
+.contact-info input[type='text'], input[type='email'], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+.social-links a{
+    padding-left: 25px;
 }
